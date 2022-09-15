@@ -1,2 +1,2 @@
 # Caravan-Bootstrap
- - Em Desenvolvimento, a partir do Curso Bootstrap da Origamid.
+ - Desenvolvimento com conhecimentos adiquiridos no curso de bootstrap da Origamid.
