@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/local.css">
   
   <title>Caravan-Planos</title>
@@ -41,31 +41,29 @@
       </div>
   <!--  FechaModal  -->
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
-    <a href="../index.html" class="navbar-brand">
-      <img src="../img/caravan.svg" alt="caravan">
+    <a href="index.html" class="navbar-brand">
+      <img src="img/caravan.svg" alt="caravan">
     </a>
-
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-    data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" 
+    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
     aria-expanded="false" aria-label="Abrir navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul  class="navbar-nav ms-auto ">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="Pages/local.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Locais
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="local.html">California</a></li>
+            <li><a class="dropdown-item" href="local.html">Dublin</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="local.html">Paris</a></li>
           </ul>
         </li>
         </li>
-        <li class="nav-item">
+        <li class="nav-item ">
           <a href="planos.html" class="nav-link active">Planos</a>
         </li>
         <li class="nav-item">
@@ -75,8 +73,7 @@
           <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
         </li>
         <li class="nav-item">
-          <a href="inscricao.html" class=" btn btn-outline-primary ms-md-2">Inscreva-se</a>
-          
+          <a href="inscricao.html" class=" btn btn-outline-primary ms-md-2">Inscreva-se</a>   
         </li>
       </ul>
     </div>
@@ -92,7 +89,7 @@
         <div class="bg-light rounded p-4 box-shadow">
           <h2>Gold</h2>
           <ul class="list-unstyled">
-            <li class="border-bottom p-1 pt-3">→ 30 dias de viagem</li>
+            <li class="border-bottom p-1 pt-3"> <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" >→ 30 dias de viagem</span></li>
             <li class="border-bottom p-1">→ destinos diferentes</li>
             <li class="border-bottom p-1">→ tudo pago pela empresa</li>
             <li class="">→ Ingressos para festas</li>
@@ -117,8 +114,8 @@
         <div class="bg-light rounded p-4 box-shadow">
           <h2>Platinum <span class="badge bg-success">New</span></h2>
           <ul class="list-unstyled">
-            <li class="border-bottom p-1 pt-3">→ 30 dias de viagem</li>
-            <li class="border-bottom p-1">→ destinos diferentes</li>
+            <li class="border-bottom p-1 pt-3">→ 60 dias de viagem</li>
+            <li class="border-bottom p-1">→ 6 destinos diferentes</li>
             <li class="border-bottom p-1">→ tudo pago pela empresa</li>
             <li class="">→ Ingressos para festas</li>
           </ul>
@@ -184,6 +181,9 @@
     </div>
   </footer>
 
+  
+  <script src="JS/script.js"></script>
   <script src="JS/bootstrap.js"></script>
+  <script src="JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>
